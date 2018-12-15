@@ -1,4 +1,4 @@
-<h2><a href=""><img src="img/goldbar.jpg" width="100px">Gold Price Analysis</a></h2>
+<h2><a href=""><img src="img/goldbar.png" width="100px">Gold Price Analysis</a></h2>
 <a href=""><img src="img/gold2.jpg" width="1000px"></a><br>
 
  ## คำอธิบายโปรเจค
