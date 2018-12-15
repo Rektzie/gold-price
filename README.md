@@ -18,10 +18,10 @@
  ## Team Members
 | รูป | รหัสนักศึกษา        | ชื่อ | นามสกุล |
 |:-:| :-------------: |:----------:|:--------:|
- | <a href=""><img src="img/game.jpg" width="200px"></a> | 60070105 | นายนิธาน | ทรัพย์แก้วยอด |
- | <a href=""><img src="img/mangpor.jpg" width="200px"></a> | 61070108 | นางสาวบุญญิสา | เลียวสิริไพโรจน์ |
- | <a href=""><img src="img/ball.jpg" width="200px"></a> | 61070140| นายพันธวีร์ | คงสวัสดิ์  |
- | <a href=""><img src="img/non.jpg" width="200px"></a> | 61070246 | นายสุชานนท์ | วิโรจน์รัตน์  |
+ | <a href=""><img src="img/game.jpg" width="200px" height="200px"></a> | 60070105 | นายนิธาน | ทรัพย์แก้วยอด |
+ | <a href=""><img src="img/mangpor.jpg" width="200px" height="200px"></a> | 61070108 | นางสาวบุญญิสา | เลียวสิริไพโรจน์ |
+ | <a href=""><img src="img/ball.jpg" width="200px" height="200px"></a> | 61070140| นายพันธวีร์ | คงสวัสดิ์  |
+ | <a href=""><img src="img/non.jpg" width="200px" height="200px"></a> | 61070246 | นายสุชานนท์ | วิโรจน์รัตน์  |
  
  ## Assistant Teacher
  - Instructor: Chotipat Pornavalai
