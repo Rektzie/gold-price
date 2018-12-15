@@ -1,4 +1,4 @@
-<h2>PROJECT PROBLEM SOLVING IN INFORMATION TECHNOLOGY 1/2560</h2>
+<h2>Gold Price Analysis</h2>
 <a href=""><img src="img/gold2.jpg" width="1000px"></a><br>
 
  ## คำอธิบายโปรเจค
