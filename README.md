@@ -12,6 +12,9 @@
   
    รูปแบบข้อมูล : ไฟล์ข้อมูลนามสกุล .csv ซึ่งประกอบด้วย
  - Price : เป็นค่าเงิน USA
- - Years : ปีที่นักท่องเที่ยวเข้ามาเที่ยวตั้งแต่ 195 - ปัจจุบัน
+ - Years : ปีที่นักท่องเที่ยวเข้ามาเที่ยวตั้งแต่ 1950 - ปัจจุบัน
  
- ## 
+ ## Assistant Teacher
+ - Instructor: Chotipat Pornavalai
+ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รายงานนี้เป็นส่วนหนึ่งของวิชา PROBLEM SOLVING IN INFORMATION TECHNOLOGY (06016314)
+ <br>เทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 
