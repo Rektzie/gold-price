@@ -12,8 +12,8 @@
   - https://datahub.io/core/gold-prices?fbclid=IwAR3LE3PlwHsM_rtkFAmR_XIcoh1Zhi3ve5Q_JLEYKTH1kvwfHDDCnK-WE3c
   
    รูปแบบข้อมูล : ไฟล์ข้อมูลนามสกุล .csv ซึ่งประกอบด้วย
- - Price : เป็นค่าเงิน USA
- - Years : ปีที่นักท่องเที่ยวเข้ามาเที่ยวตั้งแต่ 1950 - ปัจจุบัน
+ - Price : เงินในสกุลดอลล่าสหรัฐ(USD)
+ - Years : มูลค่าทองตั้งเเต่ปี ค.ศ. 1950 - ปัจจุบัน
  
  ## Team Members
 | รูป | รหัสนักศึกษา        | ชื่อ | นามสกุล |
