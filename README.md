@@ -1,5 +1,5 @@
-<h2><a href=""><img src="img/goldbar.png" width="100px">Gold Price Analysis</a></h2>
-<a href=""><img src="img/gold2.jpg" width="1000px"></a><br>
+<h2><a href=""><img src="img/goldbar.png" width="50px">Gold Price Analysis</a></h2>
+<a href=""><img src="img/goldpricere.jpg" width="1000px"></a><br>
 
  ## คำอธิบายโปรเจค
  
