@@ -1,5 +1,6 @@
 <h2>PROJECT PROBLEM SOLVING IN INFORMATION TECHNOLOGY 1/2560</h2>
-<a href=""><img src="img/https://www.moneymetals.com/uploads/content/gold-price.jpg" width="1000px"></a><br>
+<a href=""><img src="gold-price.jpg" width="1000px"></a><br>
+
  ## คำอธิบายโปรเจค
      สวัสดึครับพวกเรากลุ่ม fontok sleepy จะทำโปรเจคเกี่ยวกันการวิเคราะห์ข้อมูลในเรื่อง Gold price ว่ามีมูลค่าขึ้นลงเท่าไหร ตั้งแต่ปี 
      1950-ปัจจุบัน โดยเราจะวิเคราะห็ข้อมูลั้งแต่สิ้นปีของทุกปีว่าราคาทองนั้นต่างกันเท่าไหร โดยจะแสดงผลออกมาเป็นกราฟ โดยเราจะเลือกใช้ภาษา
