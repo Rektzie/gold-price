@@ -1,5 +1,4 @@
 <h2>PROJECT PROBLEM SOLVING IN INFORMATION TECHNOLOGY 1/2560</h2>
-<a href=""><img src="C:\Users\admin\Desktop/gold-price.jpg" width="1000px"></a><br>
 
  ## คำอธิบายโปรเจค
      สวัสดึครับพวกเรากลุ่ม fontok sleepy จะทำโปรเจคเกี่ยวกันการวิเคราะห์ข้อมูลในเรื่อง Gold price ว่ามีมูลค่าขึ้นลงเท่าไหร ตั้งแต่ปี 
