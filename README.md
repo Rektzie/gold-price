@@ -9,6 +9,9 @@
    
  ## เว็บไซต์ของพวกเรา
    http://www.it.kmitl.ac.th/~it61070108/psit/index.html
+   
+ ## วีดิโอนำเสนอ
+   https://www.youtube.com/watch?v=gko7AJcFNOE&feature=youtu.be
  
  ## ใช้ข้อมูลจากที่ไหน 
    ข้อมูลจาก
