@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <LINK REL="SHORTCUT ICON" HREF="gold_bars.ico">
+    <link rel="stylesheet" href="animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content-ale=1">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='/PATH/TO/FOLDER/css/animations-ie-fix.css' rel='stylesheet'>
+    <link href='/PATH/TO/FOLDER/css/animations.css' rel='stylesheet'>
+
+    <title>Gold Price</title>
+</head>
+    <style type="text/css">
+html{
+     scroll-behavior: smooth;
+     -webkit-tap-highlight-color:transparent;
+}
+* {
+  box-sizing: border-box;
+}
+@font-face {
+font-family: supermarket;
+src: url('supermarket.eot');
+src: url('supermarket.eot') format('embedded-opentype'),
+url('supermarket.woff') format('woff'),
+url('supermarket.ttf') format('truetype'),
+url('supermarket.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+    body,td,th {
+    font-family: supermarket, sans-serif, "ms Sans Serif";
+    font-size: 24px;
+    color: #FFF;
+}
+
+body { font-family: 'supermarket' !important; }
+
+body {
+    background-image: url(bgg.jpg);
+    background-size: cover;
+    background-origin: content;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+body {margin:0;}
+
+#navbar {
+  background-color: #e2a500;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+}
+
+#navbar a {
+  background-color: #e2a500;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 100%; /* Used in this example to enable scrolling */
+}
+
+.text {
+  color: #000000;
+  font-size: 20px;
+  position: fixed;
+  top: 100%;
+  left: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 100%;
+}
+
+.table{
+    background-image: url(bg.jpg);
+}
+
+.h1{
+    font-size: 80px;
+}
+
+.hh{
+    font-size: 22px;
+    color: black;
+}
+
+.hhw{
+    font-size: 22px;
+    color: white;
+}
+
+.hhtitlew{
+    font-size: 26px;
+    color: white;
+    font-weight:normal;
+}
+
+
+.contact-fp-wrap {
+  height: 60px;
+    margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+
+.booton {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 4px;
+  stroke: url('#logo-gradient');
+}
+
+.booton-text {
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
+  position: relative;
+  top: -48px;
+}
+
+.booton-text1 {
+  color: white;
+  font-size: 28px;
+  line-height: 30px;
+  position: relative;
+  top: -48px;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 6px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.contact-fp-wrap:hover .booton {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.zoom1 {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.zoom1:hover {
+  transform: scale(1.28); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom:hover {
+  transform: scale(1.6); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.bg{
+    background-image: url(gold-bar-uhd-4k-wallpaper.jpg);
+    background-attachment: fixed;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+#gotoTop{
+    position:fixed;
+    margin:auto;
+    right:10px;
+    bottom:10px;
+    border:0px;
+    cursor:pointer;
+    z-index: 99;
+    display:none;
+}
+
+</style>
+
+<div id="navbar">
+
+  <a href="#members">สมาชิก</a>
+  <a href="#price">ราคาทอง</a>
+  <a href="#aboutweb">เกี่ยวกับโปรเจค</a>
+  <a href="#home">หน้าหลัก</a>
+</div>
+<br>
+<br>
+  <a name="home"><div class="content">
+    <body>
+    <br>
+    <br>
+    <br><center><table width = "100%"><tr><td></dd><left><div class="fadeInUp animated"><div class="h1"><dd>Gold Price Analysis</dd></div><h4><dd><dd>ราคาทองหน่วยดอลลาร์สหรัฐตั้งเเต่ ค.ศ.1950 จนถึงปัจจุบัน</dd></dd></h4></div></left></td></tr></table></center>
+    <br>
+    <br>
+    <br></a>
+
+    <table background="black.jpg" width="100%"><tr><td><a name="aboutweb"><center><br><br><div class="animated fadeInDown box"><h2 class='animated bounceInDown delay-250'><div class="contact-fp-wrap">
+  <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+   <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="75%" y2="100%" >
+
+            <stop offset="0%" stop-color="#F79533">
+                <animate attributeName="stop-color" values="#F79533; #F37055; #EF4E7B; #A166AB; #5073B8; #1098AD; #07B39B; #6DBA82; #F79533" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+
+            <stop offset="100%" stop-color="#F79533">
+                <animate attributeName="stop-color" values="#F37055; #EF4E7B; #A166AB; #5073B8; #1098AD; #07B39B; #6DBA82; #F79533; #F37055" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+
+        </linearGradient>
+  </defs>
+    <rect class="booton" height="100%" width="100%" />
+  </svg>
+   <div class="booton-text">โปรเจคเราเกี่ยวกับอะไร ?</div>
+</h2></div></div>
+<br>
+    <dd><div class="hh">พวกเราได้จัดทำโปรเจค Gold Price Analysis ขึ้นมา เพื่อวิเคราะห์ข้อมูลในเรื่องของราคาทอง ว่ามีมูลค่าขึ้นลงเท่าไหร่ <br>ตั้งแต่ปี ค.ศ. 1950 จนถึงปัจจุบันโดยเราจะวิเคราะห์ข้อมูลของทุกปีว่าราคาทองนั้นมีมูลค่าต่างกันเท่าไหร่จากปีที่ผ่านๆมา<br>โดยจะแสดงผลออกมาเป็นข้อมูลราคาทองแต่ละปี ในรูปแบบกราฟ</div>
+    </center>
+    <center><table align="center" width="70%">
+<tr>
+    <td align="center"><div class="zoom"><img src="usd.png" width="110px"></div>
+    </td>
+    <td align="center"><div class="zoom"><img src="calendar-interface-symbol-tool.png" width="120px"></div></td>
+  </tr>
+  <tr>
+    <td align="center"><div class="hh">Price : เงินในสกุลดอลล่าสหรัฐ (USD)</div><br></td>
+    <td align="center"><div class="hh">Years : มูลค่าทองตั้งเเต่ปี ค.ศ. 1950 - ปัจจุบัน</div><br></a></td>
+  </tr></table></table></center>
+
+<script src="file:///C|/Program%20Files%20(x86)/Adobe/Adobe%20Dreamweaver%20CS6/Configuration/BuiltIn/Fluid%20Grid%20Layout/respond.min.js"></script>
+
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+
+<div class="bg"><table width="100%"><tr><td><br><br><center><div class="contact-fp-wrap">
+  <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+   <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="75%" y2="100%" >
+
+            <stop offset="0%" stop-color="#F79533">
+                <animate attributeName="stop-color" values="#F79533; #F37055; #EF4E7B; #A166AB; #5073B8; #1098AD; #07B39B; #6DBA82; #F79533" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+
+            <stop offset="100%" stop-color="#F79533">
+                <animate attributeName="stop-color" values="#F37055; #EF4E7B; #A166AB; #5073B8; #1098AD; #07B39B; #6DBA82; #F79533; #F37055" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+
+        </linearGradient>
+  </defs>
+    <rect class="booton" height="100%" width="100%" />
+  </svg>
+   <div class="fadeInUp animated"><div class="booton-text1">6 ปัจจัยที่กระทบราคาทองคำ</div></div>
+</div><br></center>
+    </center>
+    <center>
+    <table cellpadding="70" align="center"><tr>
+    <td align="left" width="50%" background="white.jpg" ><div class="hhw"><center><img src="demand.png" width="20%"><br><font size="25">Demand & Supply<br>(อุปสงค์ & อุปทาน)</font></center><br>&nbsp;&nbsp;&nbsp;สำหรับข้อแรกนั้นเป็นเรื่องพื้นฐานที่สุดสำหรับสินค้าทุกชนิดบนโลกใบนี้ก็คือเรื่องของ Demand Supply นั่นเอง เอาง่ายๆก็คือถ้าหาก ทองคำนั้นหามาได้ง่าย+มีจำนวนมากเหมือนพลาสติก ราคาของทองคำนั้นก็จะต่ำ หรือ หากทองคำนั้นมีคนอยากซื้อมากราคาทองคำก็จะสูงขึ้นตามหลัก Demand Supply ที่ใช้ได้กับสินค้าทุกชนิดบนโลก</div></td>
+    <td align="center" width="70%" background="transplass.png"><br><div class="zoom1"><img src="demand supply.jpg" width="100%"></div></td>
+  </tr>
+</table>
+  <table  cellpadding="100"><tr>
+    <td align="center" width="50%" background="transplass.png"><div class="zoom1"><img src="economic.jpg" width="100%"></div></td>
+    <td align="left" width="50%" background="white.jpg"><div class="hhw"><center><img src="economic.png" width="20%"><br><font size="25">Economic Data<br>(ข้อมูลทางเศรษฐกิจ)</font><br></center>&nbsp;&nbsp;&nbsp;สำหรับประเด็นที่ 2 คือเรื่องของตัวเลขเศรษฐกิจต่างๆ คือถ้าหากเศรษฐกิจของโลกนี้ดูดี นักลงทุนก็จะไม่ค่อยสนใจทองคำมากนักเพราะนำเงินไปลงทุนในตลาดหุ้น น่าจะได้รับผลตอบแทน ที่สูงกว่า ดังนั้นราคาทองคำก็จะตกลง ในทางกลับกันถ้าเศรษฐกิจของโลกหรือแนวโน้มเศรษฐกิจของโลกดูไม่ดี ราคาทองคำก็มีแนวโน้มที่คนจะสนใจมาลงทุนเพิ่มขึ้น</div></td>
+  </tr>
+</table>
+<table cellpadding="100"><tr>
+    <td align="left" width="50%" background="white.jpg"><div class="hhw"><center><img src="monetary.png" width="20%"><br><font size="25">Monetary Policy<br>(นโยบายการเงิน)</font></center><br>&nbsp;&nbsp;&nbsp;ข้อที่ 3 ก็คือเรื่องของนโยบายการเงินของธนาคารต่างๆ ทั่วโลก โดยเฉพาะประเทศใหญ่ๆ อย่าง USA เพราะเงินนั้นไหลจากที่ผลตอบแทนต่ำ ไปยังที่ผลตอบแทนสูงเสมอ ดังนั้นหากอัตราดอกเบี้ยเพิ่มสูงขึ้นก็มีแนวโน้มว่าคนจะนำเงินไปลงทุนในพวกพันธบัตรหรือเงินฝากต่างๆเพิ่มขึ้น ซึ่งก็จะส่งผลกระทบต่อราคาทองคำในทางลบนั้นเอง เพราะคนก็อาจจะขายทองคำแล้วนำเงินไปฝากเพิ่มขึ้น</div></td>
+    <td align="center" width="50%" background="transplass.png"><br><div class="zoom1"><img src="money.jpg" width="100%"></div></td>
+  </tr>
+</table>
+<table  cellpadding="100"><tr>
+    <td align="center" width="50%" background="transplass.png"><div class="zoom1"><img src="dollar.jpg" width="100%"></div></td>
+    <td align="left" width="50%" background="white.jpg"><center><div class="hhw"><img src="us.png" width="20%"><br><font size="25">US Dollar movement<br>(การเปลี่ยนเเปลง<br>ของค่าเงินดอลลาร์)</font></center><br>&nbsp;&nbsp;&nbsp;ทองคำนั้นซื้อขายกันด้วย $ เป็นหลักดังนั้นถ้า US Dollar ด้อยค่าลง (อ่อนค่า) ราคาทองคำก็จะเพิ่มสูงขึ้นเอง</div></td>
+  </tr>
+</table>
+<table cellpadding="100"><tr>
+    <td align="left" width="50%" background="white.jpg"><div class="hhw"><center><img src="inflation.png" width="20%"><br><font size="25">Inflation<br>(เงินเฟ้อ)</font></center><br>&nbsp;&nbsp;&nbsp;ข้อที่ 5 คือเรื่องของ Inflation หรือเงินเฟ้อ เงินเฟ้อที่เพิ่มขึ้นจะทำให้ราคาสินค้าต่างๆ ในโลกนี้เพิ่มขึ้น เช่นเดียวกับทองคำ ยกตัวอย่างให้เห็นภาพง่ายๆก็คือ ราคาก๋วยเตี๋ยวข้างบ้านเมื่อ 10 ปีเท่าไรแล้วราคาตอนนี้เท่าไร ??</div></td>
+    <td align="center" width="50%" background="transplass.png"><div class="zoom1"><img src="inflation.jpg" width="100%"></div></td>
+  </tr>
+</table>
+<table  cellpadding="100"><tr>
+<td align="center" width="50%" background="transplass.png"><div class="zoom1"><img src="uncertainly.jpg" width="100%"></div></td>
+<td align="left" width="50%" background="white.jpg"><div class="hhw"><center><img src="uncertainty.png" width="20%"><br><font size="25">Uncertainty<br>(ความไม่แน่นอน)</font></center><br>&nbsp;&nbsp;&nbsp;มาถึงข้อสุดท้ายที่ส่งผลกระทบต่อราคาทองคำ นั่นก็คือเรื่องของ Uncertainty หรือความไม่แน่นอนของโลกใบนี้นั้นเอง เพราะว่าทองคำนั้นถือเป็น safe heaven หรือ สินทรัพย์ปลอดภัยของโลกใบนี้ ดังนั้นหากเกิดความไม่แน่นอนเช่น เกิดการก่อการร้าย หรือ เกิดวิกฤตทางการเงิน การเมือง ราคาทองคำก็จะสูงขึ้นนั้นเอง</div></td>
+  </tr>
+</table></table></center></td></tr></table></div><a name="price">
+<center><table background="bg.jpg" width="100%"><tr><td><table width="75%" background="bg.jpg" align="center"><tr><td><br><br><embed src="graphh.svg"></embed><br><center><table width="80%" align="center"><tr><td><center><div class="hh">จากกราฟพบว่า มูลค่าทองคำในช่วงปี ค.ศ.1950 - 1970 นั้น ไม่มีความเปลี่ยนมาก
+มีมูลค่าอยูในช่วง 35-37 ดอลลาร์สหรัฐ เเละต่อมาในช่วงปี ค.ศ. 1974 ถึง 1996 มูลค่าทองคำนั้นสูงขึ้นสูงสุด
+อยู่ที่ 596 ดอลลาร์สหรัฐ จนปี ค.ศ. 2012 มูลค่าทองคำนั้นขึ้นสูงสุดในรอบ 50 ปี มีมูลค่าสูงถึง
+1,687 ดอลลาร์สหรัฐ<br><br><br></div></center></td></tr></table></center></td></tr></table></td></tr></table></a></center>
+<a name="members"><table background="white.jpg" width="100%"><tr><td><br><center><br><font size="22">Members</font></center><br><div class="column">
+    <div class="card">
+      <center><img src="nithan.jpg" alt="Jane" style="width:70%">
+      <br>61070105<br>
+    <font size="5">นายนิธาน ทรัพย์แก้วยอด</font><br>
+    <a href="https://web.facebook.com/gamenithan" target="_blank"><img src="fb.png" width="8%"></a>            <a href="https://github.com/gamenithan" target="_blank"><img src="github.png" width="8%"></a><br><br></center>
+      </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <center><img src="boonyisa.jpg" alt="Mike" style="width:70%"><br>61070108<br>
+      <font size="5">นางสาวบุญญิสา  เลียวสิริไพโรจน์</font><br>
+    <a href="https://web.facebook.com/mangpor.9ii" target="_blank"><img src="fb.png" width="8%"></a>            <a href="https://github.com/everestes" target="_blank"><img src="github.png" width="8%"></a><br><br></center>
+
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <center><img src="phantawee.jpg" alt="John" style="width:70%">
+      <br>61070140<br>
+      <font size="5">นายพันธวีร์    คงสวัสดิ์</font><br>
+    <a href="https://web.facebook.com/BalloonQuestionMark" target="_blank"><img src="fb.png" width="8%"></a>            <a href="https://github.com/61070140" target="_blank"><img src="github.png" width="8%"></a><br><br>
+    </div>
+  </div></center>
+  <div class="column">
+    <div class="card">
+      <center><img src="suchanon.jpg" alt="John" style="width:70%">
+      <br>61070246<br>
+      <font size="5">นายสุชานนท์    วิโรจน์รัตน์</font><br>
+    <a href="https://web.facebook.com/suchanon.wirotrat" target="_blank"><img src="fb.png" width="8%"></a>            <a href="https://github.com/Rektzie" target="_blank"><img src="github.png" width="8%"></a><br><br>
+    </div>
+  </div>
+</div></center></a></td></tr></table>
+
+<img id="gotoTop" src="schollMe.png" border="0" width="3%" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    // เงื่อนไข event เมื่อมีการเลื่อน scrollbar ในหน้าเพจ
+     $(window).scroll(function(){
+         if($(document).scrollTop()>100){  // เงื่อนไขขอบบนสุดของ หน้าเพจ มากกว่า 100 pixels หรือไม่
+             $("#gotoTop").fadeIn(); // ถ้ามากกว่าให้แสดง ปุ่ม  go to top
+         }else{
+             $("#gotoTop").hide(); // ถ้าน้อยกว่าให้ซ่อน ปุ่ม go to top
+         }
+     });
+     // เงื่อนไขเมื่อมีการคลิกที่ปุ่ม go to top
+     $("#gotoTop").click(function(){
+        $('html, body').animate({ // สร้างการเคลื่อนไหว
+            scrollTop: $(document.body).offset().top // ให้หน้าเพจเลื่อนไปทำตำแหน่งบนสุด
+        }, 500); // ภายในเวลา 0.5 วินาที ---- 1000 เท่ากับ 1 วินาที
+     });
+});
+</script>
+
+<center><table background="tt.jpg" width="100%" align="center"><tr><td align="center"><font size="3" color="white" weight="normal">Gold Price Analysis Created by ; ฝนตก Sleepy<br>            ขอบคุณข้อมูลจาก datahub.io<br></font></td></tr></table></center>
+
+
+</body>
+</html>
